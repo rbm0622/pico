@@ -5,11 +5,30 @@ from words import WORDS
 from clock_logic import time_to_words
 from display import clear, light_word, show
 
+import wifi_utils
+from machine import Pin
+
+def setTime():
+    # 1. Connect (utils now handles reading the text file)
+    wifi_utils.connect()
+    
+    # 2. Sync
+    wifi_utils.sync_time()
+    
+    # 3. Output
+    print(f"Current System Time: {wifi_utils.get_time_string()}")
+    
+    # Light up the onboard LED on success
+    Pin("LED", Pin.OUT).on()
+
+setTime()
+
 def show_time(hour, minute):
     clear()
     for word in time_to_words(hour, minute):
         light_word(WORDS[word])
     show()
+
 
 
 # -----------------------
