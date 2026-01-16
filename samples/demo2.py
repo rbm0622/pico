@@ -16,11 +16,11 @@ off = (0, 0, 0)
 strip.brightness(42)
 
 # Set individual LEDs to specific colors
-strip.set_pixel(0, white)    # Set the first LED to red
-strip.set_pixel(1, white)  # Set the second LED to green
+strip.set_pixel(0, red)    # Set the first LED to red
+strip.set_pixel(1, blue)  # Set the second LED to green
 strip.set_pixel(2, off)   # Set the third LED to blue
 strip.set_pixel(3, white) # Set the fourth LED to yellow
-strip.set_pixel(4, white)    # Set the fifth LED to off
+strip.set_pixel(4, green)    # Set the fifth LED to off
 strip.set_pixel(5, off)    # Sets sixth LED to off
 strip.set_pixel(6, off)    # Sets seventh LED to off
 strip.set_pixel(7, off)    # Sets eighth LED to off
