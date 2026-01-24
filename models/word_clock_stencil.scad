@@ -9,7 +9,7 @@ height = 13;
 thickness = 2;
 
 // Border size
-border = 20;
+border = 2;
 
 // Outer size
 outer_width = width + border * 2;
