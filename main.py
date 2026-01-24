@@ -37,7 +37,8 @@ def show_time(hour, minute):
 while True:
     now = utime.localtime()
     hour = now[3]
-#    minute = now[4]
+    minute = now[4]
+    hour = 8
     minute = 15
 
     show_time(hour, minute)
