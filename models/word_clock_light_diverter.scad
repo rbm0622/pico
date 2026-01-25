@@ -16,7 +16,7 @@ border_tb = 20; // top & bottom
 // Baffle Specific Settings
 baffle_height = 15;    // Depth of the light chambers
 wall_thickness = 1.2;  // Thickness of the internal walls
-base_thickness = 1.0;  // Thickness of the back plate (set to 0 if not needed)
+base_thickness = 0;  // Thickness of the back plate (set to 0 if not needed)
 
 // Calculated cell sizes [cite: 5]
 cell_w = width / cols;
