@@ -7,10 +7,10 @@
 // width = 18.15;
 width = 175;
 height = 130;
-thickness = 20;
+thickness = 5;
 
 // Border size
-border = 20;
+border = 50;
 
 // Outer size
 outer_width = width + border * 2;
