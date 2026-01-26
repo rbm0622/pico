@@ -9,8 +9,8 @@ height = 130;
 thickness = 1;
 
 // Borders
-border_lr = 50; // left & right
-border_tb = 20; // top & bottom
+border_lr = 25; // left & right
+border_tb = 8.2; // top & bottom
 
 // Outer size
 outer_width  = width  + border_lr * 2;

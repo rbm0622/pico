@@ -4,8 +4,8 @@
 // --- Dimensions from Stencil Source ---
 width = 175;           // [cite: 1]
 height = 130;          // [cite: 2]
-border_lr = 50;        // 
-border_tb = 20;        // 
+border_lr = 25;        // 
+border_tb = 8.2;        // 
 cols = 11;             // 
 rows = 10;             // 
 

@@ -4,8 +4,8 @@
 // --- Dimensions from Stencil Source ---
 width = 175;           // 
 height = 130;          // [cite: 2]
-border_lr = 50;        // [cite: 3]
-border_tb = 20;        // [cite: 3]
+border_lr = 25;        // [cite: 3]
+border_tb = 8.2;        // [cite: 3]
 
 // --- Panel Settings ---
 panel_thickness = 2;   // Set to 2mm as requested
