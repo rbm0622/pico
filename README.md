@@ -4,7 +4,7 @@
 
 ### **Note:** This is a work in progress
 
-A word clock built with a Raspberry Pi Pico W uses a 10 × 11 grid of letters (110 total) backed by a WS2812B addressable LED strip to display the time in words rather than numbers, lighting up phrases like “IT IS A QUARTER PAST TEN.” The Raspberry Pi Pico W acts as the controller, handling precise LED timing and using its built-in Wi-Fi to synchronize the time via NTP, keeping the clock accurate without manual adjustment. Each word in the grid maps to specific LED positions, and the software determines which words to illuminate based on the current time, typically rounded to five-minute intervals. The result is a clean, readable piece of functional art that combines simple hardware, Python-based firmware, and a minimalist, conversation-starting design.
+A word clock built with a Raspberry Pi Pico W uses a 10 × 11 grid of letters (110 total) backed by a WS2812B addressable LED strip to display the time in words rather than numbers, lighting up phrases like “IT IS A QUARTER PAST TEN.” The Raspberry Pi Pico W acts as the controller, handling precise LED timing and using its built-in Wi-Fi to synchronize the time via NTP, keeping the clock accurate without manual adjustment. Each word in the grid maps to specific LED positions, and the software determines which words to illuminate based on the current time, typically rounded to five-minute intervals. The result is a clean, readable piece of functional art that combines simple hardware, Python-based firmware, and a minimalist, conversation-starting design. 
 
 ## Example outputs
 
